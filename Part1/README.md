@@ -31,3 +31,7 @@ It converts source code into a stream of tokens and maintains a symbol table.
     gcc tinyC2.c -o a.out
     ./a.out < <test_file_name>
     ```
+- Remove the generated files.
+    ```bash
+    make clean
+    ```

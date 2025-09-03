@@ -40,4 +40,7 @@ make test
 lex tinyC1.l
 gcc tinyC2.c -o a.out
 ./a.out < <test_file_name>
+
+# Remove the generated files.
+make clean
 ```
