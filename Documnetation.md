@@ -188,8 +188,7 @@ Representative forms:
 
 ---
 
-## 6) Build & Run
-
+## 6) Build & Run Instructions
 ```bash
 # Move into the directory
 cd Part3

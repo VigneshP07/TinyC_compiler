@@ -10,6 +10,7 @@ It converts source code into a stream of tokens and maintains a symbol table.
 ---
 
 ## 📂 Project Structure
+
 - `tinyC1.l` → Flex lexer specification.  
 - `tinyC2.c` → Driver program (contains `main()`).  
 - `Makefile` → Build automation.  
@@ -18,6 +19,7 @@ It converts source code into a stream of tokens and maintains a symbol table.
 ---
 
 ## ⚙️ How to Build & Run
+
 - Move into the directory
     ```bash
     cd Part1
@@ -52,6 +54,7 @@ It validates tinyC programs against the grammar and generates a **parse tree**.
 ---
 
 ## 📂 Project Structure
+
 - `tinyC2.l` → Flex specification.  
 - `tinyC2.y` → Bison grammar specification.  
 - `tinyC2.c` → Driver program.  
@@ -62,6 +65,7 @@ It validates tinyC programs against the grammar and generates a **parse tree**.
 ---
 
 ## ⚙️ How to Build & Run
+
 - Move into the directory
     ```bash
     cd Part2
@@ -93,7 +97,7 @@ Generates **three-address code** (quadruples) for tinyC programs using Flex + Bi
 
 ---
 
-## 📦 Contents
+## 📦 Project Structure
 
 - `tinyC3.l` — lexer (Flex)
 - `tinyC3.y` — parser and semantic actions (Bison)
@@ -105,7 +109,8 @@ Generates **three-address code** (quadruples) for tinyC programs using Flex + Bi
 
 ---
 
-## ⚙️ Build
+## ⚙️ How to Build & Run
+
 - Move into the directory
     ```bash
     cd Part3

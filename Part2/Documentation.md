@@ -31,6 +31,7 @@ Together with Part 1 (lexer), this forms the core of the front-end for the tinyC
 
 ## 4. Build & Run Instructions
 To build and test the parser:
+
 ```bash
 # Move into the directory
 cd Part2
